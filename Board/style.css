@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.toolbox-cont {
+    height: 5rem;
+    background-color: gray;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.toolbox-priority {
+    height: 3rem;
+    width: 18rem;
+    background-color: rgba(31, 30, 30, 0.377);
+    margin-left: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.color-box {
+    height: 1.5rem;
+    width: 3rem;
+    background-color: azure;
+}
+
+.lightpink {
+    background-color: lightpink;
+}
+
+.lightgreen {
+    background-color: lightgreen;
+}
+
+.lightblue {
+    background-color: lightskyblue;
+}
+
+.black {
+    background-color: black;
+}
+
+.action-btn {
+    height: 2.5rem;
+    width: 8rem;
+    background-color: rgba(31, 30, 30, 0.377);
+    margin-left: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.action-btn *{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.add-btn:hover {
+    font-size: 2.5rem;
+    background-color: green;
+}
+
+.remove-btn:hover {
+    font-size: 2.5rem;
+    background-color: black;
+}
+
+.main-cont{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+
+}
+.tickets-cont{
+    height: 12rem;
+    width: 16rem;
+    background-color: coral;
+}
+.ticket-color {
+    height: 1rem;
+    background-color: none;
+}
+.ticket-id{
+    height: 2rem;
+    background-color: yellow;
+}
+.ticket-lock{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+.modal-cont{
+    height: 50vh;
+    width: 45vw;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    display: none;
+    
+}
+.textarea-cont{
+    height: 100%;
+    width: 70%;
+    background-color: rgb(200, 204, 207);
+    resize: none;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+}
+
+.priority-modal-color{
+    height: 100%;
+    width: 30%;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.priority-color{
+    height: 3.5rem;
+    width: 5rem;
+    
+}
+.active{
+    border: 5px solid lightsalmon;
+}
